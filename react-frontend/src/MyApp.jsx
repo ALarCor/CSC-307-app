@@ -1,6 +1,5 @@
 // src/MyApp.jsx
 import React, { useState } from "react";
-import React from "react";
 import Table from "./Table";
 
 // src/MyApp.jsx
