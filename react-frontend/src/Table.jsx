@@ -1,4 +1,5 @@
 // src/Table.jsx
+import React from "react";
 function TableHeader() {
     return (
       <thead>
@@ -31,11 +32,14 @@ function TableHeader() {
   }
   
   function Table(props) {
-      return (
-        <table>
-          <TableHeader />
-          <TableBody characterData={props.characterData} />
-        </table>
-      );
+    return (
+      <table>
+        <TableHeader />
+        <TableBody
+          characterData={props.characterData}
+          removeCharacter={props.removeCharacter}
+        />
+      </table>
+    );
   }
   export default Table;
