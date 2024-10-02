@@ -1,5 +1,6 @@
 // src/Table.jsx
 import React from "react";
+
 function TableHeader() {
     return (
       <thead>
@@ -20,6 +21,10 @@ function TableHeader() {
         <tr key={index}>
           <td>{row.name}</td>
           <td>{row.job}</td>
+          <td><button onClick={() => props.removeCharacter(index)}>
+      Delete
+    </button>
+    </td>
         </tr>
       );
      }
