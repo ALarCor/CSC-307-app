@@ -7,19 +7,19 @@ function MyApp() {
   const [characters, setCharacters] = useState([
     {
       name: "Charlie",
-      job: "Janitor",
+      job: "Clean the Bathrooms",
     },
     {
       name: "Mac",
-      job: "Bouncer",
+      job: "Clean the Truck",
     },
     {
-      name: "Dee",
-      job: "Aspiring actress",
+      name: "Abigail",
+      job: "Study SQL",
     },
     {
       name: "Dennis",
-      job: "Bartender",
+      job: "Chill",
     },
   ]);
 
