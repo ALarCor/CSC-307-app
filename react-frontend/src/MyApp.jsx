@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 import cors from "cors";
 
 function MyApp() {
-  // Use state for characters
+  
   const [characters, setCharacters] = useState([
     {
       name: "Charlie",
